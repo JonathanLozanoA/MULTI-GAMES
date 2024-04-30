@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>JUEGO POKÉMON</title>
+    </head>
+    <body>
+        <h1>COMBATES POKÉMON <br> 🔥🌱💧⚡</h1>
+        <section id="SeleccionPokemon"> 
+            <h2>Elige tu POKÉMON</h2> 
+            <!-- EL name= y el type=radio ENCAPSULAN TODAS LAS OPCIONES DE CHECK EN UN MISMO CONJUNTO-->
+            <input type="radio" name="seleccionPokemon" id="charmander"/>
+            <label for="charmander">CHARMANDER 🔥</label>
+            <br>
+            <input type="radio" name="seleccionPokemon" id="bulbasaur"/>
+            <label for="bulbasaur">BULBASAUR 🌱</label>
+            <br>
+            <input type="radio" name="seleccionPokemon" id="squirtle"/>
+            <label for="squirtle">SQUIRTLE 💧</label>
+            <br>
+            <input type="radio" name="seleccionPokemon" id="pikachu"/>
+            <label for="pikachu">PIKACHU ⚡</label> 
+            <br> <br>
+            <button id="boton-seleccionar">SELECCIONAR</button>
+             
+            
+        </section>
+            
+        <section>
+            <h2>Elige tu ataque</h2>
+            <P>Tu PokéMon <span id="pokemon-jugador"></span> tiene <span>3</span> vidas.</P>
+            <p>El PokéMon <span id="pokemon-pc"></span> de tu oponente tiene <span>3</span> vidas.</P>
+            
+            <p>
+                <button id="ataqueFuego">FUEGO 🔥</button>
+                <button id="ataqueTierra">TIERRA 🌱</button>
+                <button id="ataqueAgua">AGUA 💧</button>
+                <button id="ataqueRayo">RAYO ⚡</button>
+            </p>
+        </section>
+
+        <section>
+            <button id="boton-reiniciar">REINICIAR</button>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

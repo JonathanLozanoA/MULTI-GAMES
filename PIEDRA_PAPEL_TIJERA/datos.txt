@@ -1,0 +1,18 @@
+En esta versión se encuentra la estructura inicial en HTML y .js del juego Piedra Papel o Tijera.total 8.0K
+-rw-r--r-- 1 jonhy 197609   63 Apr 22 16:55 css.txt
+-rw-r--r-- 1 jonhy 197609   98 Apr 22 16:49 datos.txt
+-rw-r--r-- 1 jonhy 197609  384 Apr 24 08:43 htmlJuego.txt
+-rw-r--r-- 1 jonhy 197609  390 Apr 24 08:47 index.html
+-rw-r--r-- 1 jonhy 197609 1.6K Apr 14 17:30 script.js
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>  
+        <title>JUEGO | ¡PIEDRA PAPEL O TIJERA!</title>  
+    </head>
+    <body>
+        <h1>PARTICIPA Y GANA EN EL JUEGO DE PIEDRA PAPEL O TIJERA"</h1>
+        <h2>SELECCIONA TU MANO CON PIEDRA ✊🏼  PAPEL 🖐🏼 O  TIJERA ✌🏼 (a 3)</h2>
+        <script src="script.js"></script>
+    </body>
+</html>

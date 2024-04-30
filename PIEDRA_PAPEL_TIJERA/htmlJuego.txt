@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>  
+        <title>JUEGO | ¡PIEDRA PAPEL O TIJERA!</title>  
+    </head>
+    <body>
+        <h1>PARTICIPA Y GANA EN EL JUEGO DE PIEDRA PAPEL O TIJERA"</h1>
+        <h2>SELECCIONA TU MANO CON PIEDRA ✊🏼  PAPEL 🖐🏼 O  TIJERA ✌🏼</h2>
+        <script src="script.js"></script>
+    </body>
+</html>
